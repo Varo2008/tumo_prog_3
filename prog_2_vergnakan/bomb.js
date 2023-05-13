@@ -14,7 +14,7 @@ class Boob {
             [this.x + 1, this.y + 1]
         ];
     }
-    chooseCell(character, character1) {
+    chooseCell(character) {
         this.getNewCoordinates()
         var found = [];
         for (var i in this.directions) {
@@ -32,20 +32,20 @@ class Boob {
         return found;
     }
 
-    mul() {
-        var emptyCells = this.chooseCell(0);
-        var newCell = random(emptyCells);
+    // mul() {
+    //     var emptyCells = this.chooseCell(0);
+    //     var newCell = random(emptyCells);
 
-        if (newCell) {
-            var newX = newCell[0];
-            var newY = newCell[1];
-            matrix[newY][newX] = 4;
+    //     if (newCell) {
+    //         var newX = newCell[0];
+    //         var newY = newCell[1];
+    //         matrix[newY][newX] = 4;
 
-            var newGrass = new Boob(newX, newY);
-            boobArr.push(newGrass);
+    //         var newGrass = new Boob(newX, newY);
+    //         boobArr.push(newGrass);
 
-        }
-    }
+    //     }
+    // }
 
     eat() {
         // var emptyCells = this.chooseCell(2)

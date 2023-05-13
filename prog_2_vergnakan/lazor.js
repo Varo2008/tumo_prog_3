@@ -10,28 +10,13 @@ class Lazor {
             [this.x, this.y - 4],
             [this.x, this.y - 5],
             [this.x, this.y - 6],
-            [this.x, this.y - 7],
-            [this.x, this.y - 8],
-            [this.x, this.y - 9],
-            [this.x, this.y - 10],
-            [this.x, this.y - 11],
-            [this.x, this.y - 12],
-            [this.x, this.y - 13],
-            [this.x, this.y - 14],
             [this.x, this.y + 1],
             [this.x, this.y + 2],
             [this.x, this.y + 3],
             [this.x, this.y + 4],
             [this.x, this.y + 5],
-            [this.x, this.y + 6],
-            [this.x, this.y + 7],
-            [this.x, this.y + 8],
-            [this.x, this.y + 9],
-            [this.x, this.y + 10],
-            [this.x, this.y + 11],
-            [this.x, this.y + 12],
-            [this.x, this.y + 13],
-            [this.x, this.y + 14]
+            [this.x, this.y + 6]
+  
         ];
     }
     chooseCell(character, character1) {
